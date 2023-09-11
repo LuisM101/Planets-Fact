@@ -1,0 +1,32 @@
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.planet-detail-container{
+    width: 255px;
+    height: 128px;
+    border-color: gray;
+    border-style: solid;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 5vh;
+}
+.title{
+    width: auto;
+    height: 25px;
+    font-family: "Spartan";
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: gray;
+}
+.planet-detail{
+    width: auto;
+    height: 52px;
+    font-size: 32px;
+    font-family: "Antonio";
+    letter-spacing: -1.5px;
+    color: white;
+    margin-top: 5px;
+}

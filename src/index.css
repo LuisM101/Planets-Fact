@@ -5,9 +5,136 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("..//public/images/background-stars.png");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+header{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+header p{
+  width: 110px;
+  height: 36px;
+  color: #FFFFFF;
+  font-family: "Antonio";
+  font-weight: medium;
+  font-size: 28px;
+  letter-spacing: -1.05px;
+  line-height: auto;
+  margin-left: 25px;
+}
+main{
+  display: flex;
+  margin-left: 25%;
+  margin-right: 25%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+h1{
+  max-width: 250px;
+  height: 104px;
+  font-family: "Antonio";
+  font-size: 80px;
+  color: #FFFFFF;
+}
+a{
+  color: gray;
+}
+.planets-list li{
+  display: inline;
+  width: 67px;
+  height: 25px;
+  font-family: "Spartan";
+  font-weight: bold;
+  font-size: 11px;
+  color: #FFFFFF;
+  line-height: 25px;
+  letter-spacing: 1px;
+  cursor: default;
+}
+.planet-container{
+  width: 800px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: auto;
+}
+.planet-content{
+  width: 350px;
+  height: 150px;
+  font-family: "Spartan";
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 25px;
+}
+/* .planet-info-container{
+  display:flex;
+  flex-wrap: wrap;
+  flex: 100%;
+
+} */
+.geology-center{
+  position: absolute;
+  top: 75%;
+}
+.geology-container{
+  position: relative;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+.source{
+  width: 164px;
+  height: 25px;
+  color: gray;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.section-container{
+  width: 350px;
+  height: 176px; 
+}
+.section-button{
+  width: 350px;
+  height: 48px;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: "Spartan";
+  font-weight: bold;
+  letter-spacing: 2.57px;
+  line-height: 25px;
+  background-color:transparent;
+  border-color: gray;
+  border: 1;
+  margin-bottom: 10px;
+}
+.section-button-active{
+  width: 350px;
+  height: 48px;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: "Spartan";
+  font-weight: bold;
+  letter-spacing: 2.57px;
+  line-height: 25px;
+  background-color: #419EBB;
+  border-color: gray;
+  border: 1;
+  margin-bottom: 10px;
+}
+.number-section{
+  width: 18px;
+  height: 25px;
+  letter-spacing: 2.57px;
+}
+.image-container{
+  margin-right: 150px;
 }
